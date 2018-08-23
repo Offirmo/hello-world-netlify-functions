@@ -11,6 +11,14 @@
 		"build": "netlify-lambda build ./src",
 		"start": "netlify-lambda serve ./src"
 	},
+	"proxy": {
+		"/.netlify/functions": {
+			"target": "http://localhost:9000",
+			"pathRewrite": {
+				"^/\\.netlify/functions": ""
+			}
+		}
+	},
 	"dependencies": {
 	},
 	"devDependencies": {

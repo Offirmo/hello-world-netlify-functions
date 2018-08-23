@@ -17,3 +17,5 @@
 		ACCESS_TOKEN = "super secret"
 		FOO = "bar"
 
+[template.environment]
+	FAUNADB_SECRET = "Your FaunaDB Server Secret"
