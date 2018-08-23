@@ -1,0 +1,19 @@
+# Interesting links: https://www.netlify.com/docs/continuous-deployment/
+
+
+# Global settings applied to the whole site.
+#
+# “publish” is the directory to publish (relative to root of your repo),
+# “command” is your build command,
+[build]
+	publish = "public"
+	functions = "./functions"
+	command = "yarn build"
+
+# Production context: All deploys to the main
+# repository branch will inherit these settings.
+[context.production]
+	[context.production.environment]
+		ACCESS_TOKEN = "super secret"
+		FOO = "bar"
+
