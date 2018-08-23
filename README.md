@@ -9,7 +9,11 @@ See also
 * build tool https://github.com/netlify/netlify-lambda
 * https://github.com/netlify/open-api/
 * TOML reference https://www.netlify.com/docs/netlify-toml-reference/
-* more advanced example https://www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions--faunadb/
+* more advanced examples
+  * https://github.com/netlify/netlify-functions-example/tree/master/src/lambda
+  * https://www.netlify.com/blog/2018/03/19/create-your-own-url-shortener-with-netlifys-forms-and-functions/
+  * https://www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions--faunadb/
+  * https://www.netlify.com/blog/2018/03/29/jamstack-architecture-on-netlify-how-identity-and-functions-work-together/
 
 
 Notes:
