@@ -7,13 +7,14 @@
 	publish = "public"
 	functions = "./functions"
 	command = "yarn build"
+[build.environment]
+	FOO = "bar"
 
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
 [context.production]
 	[context.production.environment]
 		ACCESS_TOKEN = "super secret"
-		FOO = "bar"
 
 [template.environment]
 	FAUNADB_SECRET = "Your FaunaDB Server Secret"
