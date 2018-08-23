@@ -2,6 +2,8 @@
 
 Testing Netlify's functions https://www.netlify.com/docs/functions/
 
+Site live at: https://hello-world-netlify-functions.netlify.com/
+
 See also
 * https://github.com/Offirmo/hello-world-netlify-site
 * https://github.com/netlify/open-api/
