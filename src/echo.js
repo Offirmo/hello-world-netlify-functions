@@ -4,9 +4,9 @@ exports.handler = function(event, context, callback) {
 
 	const body = `<pre>
 ${JSON.stringify({
-	env: process.env,
-	event,
-	context,
+		context,
+		event,
+		env: process.env,
 }, null, 2)}
 </pre>`
 
