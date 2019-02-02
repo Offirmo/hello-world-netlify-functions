@@ -2,7 +2,6 @@
 	"name": "hello-world-netlify-functions",
 	"version": "0.0.1",
 	"description": "Testing Netlify's functions",
-	"main": "index.js",
 	"repository": "https://github.com/Offirmo/hello-world-netlify-functions.git",
 	"author": "Offirmo <offirmo.net@gmail.com>",
 	"license": "Unlicense",
@@ -20,8 +19,9 @@
 		}
 	},
 	"dependencies": {
+		"lodash": "^4.17.11"
 	},
 	"devDependencies": {
-		"netlify-lambda": "^0.4.0"
+		"netlify-lambda": "^1.3.1"
 	}
 }

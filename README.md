@@ -1,6 +1,7 @@
 # hello-world-netlify-functions
 
-Testing Netlify's functions https://www.netlify.com/docs/functions/
+Testing Netlify's functions https://www.netlify.com/docs/functions/ in the simplest way,
+no transpilation.
 
 Site live at: https://hello-world-netlify-functions.netlify.com/
 
@@ -17,5 +18,5 @@ See also
 
 
 Notes:
-* AWS supports node up to ^8 only ! (see AWS_EXECUTION_ENV https://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html)
+* AWS supports node up to ~8.10 only ! (see https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
 * Callback API: https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-handler.html#nodejs-prog-model-handler-callback
