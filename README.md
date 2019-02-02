@@ -5,6 +5,9 @@ no transpilation.
 
 Site live at: https://hello-world-netlify-functions.netlify.com/
 
+Local: `yarn start`
+
+
 See also
 * other hello world https://github.com/Offirmo/hello-world-netlify-site
 * build tool https://github.com/netlify/netlify-lambda

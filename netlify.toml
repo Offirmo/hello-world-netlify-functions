@@ -4,9 +4,9 @@
 # “publish” is the directory to publish (relative to root of your repo),
 # “command” is your build command,
 [build]
-	publish = "public"
-	functions = "./functions"
 	command = "yarn build"
+	functions = "./functions"
+	publish = "public"
 [build.environment]
 	FOO = "bar"
 
